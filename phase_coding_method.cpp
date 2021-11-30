@@ -355,7 +355,7 @@ public:
 int main()
 {
 	char choice;
-	std::cout << "Press 1 or 2:\n1. Embeding\n2.Extracting\n";
+	std::cout << "Press 1 or 2:\n1. Embedding\n2. Extracting\n";
 	std::cin >> choice;
 	std::string audio_file_name;
 	switch (choice)
